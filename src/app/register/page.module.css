@@ -1,0 +1,83 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .formBox {
+    /* max-width: 45vh !important; */
+  }
+
+  .inputBx > input {
+    min-width: 40vh !important;
+  }
+
+  .inputBx > button {
+    min-width: 40vh !important;
+    margin: 0 10px 0 10px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%s;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+
+.formBox {
+  min-height: 40vh;
+  min-width: 30%;
+  background-color: rgba(0, 0, 0, 0.247);
+  border: 3px solid #ffffff;
+}
+
+.formItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.formItems > h1 {
+  color: #95c0ff;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+}
+
+.inputBx > input {
+  min-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.inputBx > button {
+  min-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  background-color: #cf9aff;
+  color: white;
+  font-weight: 600;
+}
+
+.inputBx > button:hover {
+  background-color: #d8b6f8;
+  border: 1px solid #cf9aff;
+  color: white;
+}
+
+.formLink {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.formLinkItems {
+  text-decoration: none;
+  color: rgb(83, 80, 80);
+  margin-bottom: 20px;
+}

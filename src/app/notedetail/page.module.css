@@ -1,0 +1,143 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .content {
+    width: calc(100% - 10px) !important;
+    height: 98% !important;
+    margin-top: 7px !important;
+  }
+
+  .popupB {
+    width: 200% !important;
+    margin-top: 50px;
+  }
+
+  .header button {
+    font-size: 13px !important;
+    padding: 10px 20px !important;
+  }
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  color: #fff;
+  padding-top: 1%;
+}
+
+.header {
+  margin: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header button {
+  background: linear-gradient(#9418fd, #571094);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px 40px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.saveBtn:hover {
+  transform: scale(1.2);
+}
+.backBtn:hover {
+  transform: scale(1.2);
+}
+
+.popupB {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  transition: all 0.25s ease;
+}
+
+.popup {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 480px;
+  max-width: 45%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.content {
+  width: calc(100% - 15px);
+  border-radius: 5px;
+  background: linear-gradient(#dbb1ff, #b381df);
+  margin-left: 7px;
+  margin-top: 10px;
+  height: 50vh;
+}
+
+.content header {
+  padding: 15px 25px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content header p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(113, 25, 148);
+}
+.content header img {
+  width: 50px;
+}
+
+.content form {
+  margin: 60px 25px;
+}
+
+.content form input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #999;
+  height: 50px;
+  outline: none;
+  font-size: 17px;
+  padding: 0 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(113, 25, 148);
+}
+
+.content form textarea {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #999;
+  height: 50px;
+  outline: none;
+  font-size: 17px;
+  padding: 0 15px;
+  margin-top: 10px;
+  color: rgb(113, 25, 148);
+}
+
+.content form textarea {
+  height: 150px;
+  resize: none;
+  padding: 8px 15px;
+}
+
+.content form label {
+  font-weight: 600;
+  color: rgb(113, 25, 148);
+}
